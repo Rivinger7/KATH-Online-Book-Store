@@ -1,0 +1,168 @@
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+body {
+  overflow-y: scroll;
+  /* Show the scrollbar */
+}
+
+/*** Topbar Start ***/
+.fixed-top {
+  transition: 0.5s;
+  background: var(--bs-white);
+  border: 0;
+}
+
+.topbar {
+  padding: 20px;
+  border-radius: 230px 100px;
+}
+
+.topbar .top-info {
+  font-size: 15px;
+  line-height: 0;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.topbar .top-link {
+  font-size: 15px;
+  line-height: 0;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.topbar .top-link a {
+  letter-spacing: 1px;
+}
+
+.topbar .top-link a small:hover {
+  color: var(--bs-secondary) !important;
+  transition: 0.5s;
+}
+
+.nav-item.dropdown .nav-link.dropdown-toggle {
+  margin-top: 0;
+}
+
+.topbar .top-link a small:hover i {
+  color: var(--bs-primary) !important;
+}
+
+/*** Topbar End ***/
+
+/* Navigation Header */
+.navbar-nav a {
+  font-size: 5%;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 10px 15px !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+  font-size: 16px;
+  transition: .5s;
+}
+
+.navbar {
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active,
+.fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
+.fixed-top.bg-white .navbar .navbar-nav .nav-link.active {
+  color: var(--bs-primary);
+}
+
+.navbar .dropdown-toggle::after {
+  border: none;
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  vertical-align: middle;
+  /* margin-left: 8px; */
+}
+
+@media (min-width: 1200px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    top: 100%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+    border: 0;
+    transition: .5s;
+    opacity: 0;
+  }
+}
+
+.navbar-nav.mx-auto {
+  width: 50%;
+  justify-content: space-between !important;
+}
+
+.dropdown .dropdown-menu a:hover {
+  background: var(--bs-secondary);
+  color: var(--bs-primary);
+}
+
+.dropdown-menu.m-0.bg-secondary.rounded-0 a {
+  font-size: 100%;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  background: var(--bs-light) !important;
+  border-radius: 10px !important;
+  transition: .5s;
+  opacity: 1;
+}
+
+#searchModal .modal-content {
+  background: rgba(255, 255, 255, .8);
+}
+
+/* Hide a increase / decrease button */
+input[type="number"] {
+  appearance: none;
+  -webkit-appearance: none;
+  /*  Firefox */
+  /* -moz-appearance: textfield; */
+  /*  Rest of Browsers */
+  appearance: textfield;
+}
+
+/* Shopping Bag */
+.book-image-cart {
+  width: 7.5rem;
+}
+
+/* Backgounrd Color Custom */
+.background-color-FEF6EE {
+  background-color: #FEF6EE;
+}
+
+/* Border Top Custom */
+.border-top-black {
+  border-top: 1px solid black !important;
+}
+
+/* Font Weight Custom */
+.font-weight-500 {
+  font-weight: 500;
+}
+
+/* Margin Top Custom */
+.mt-7-rem {
+  margin-top: 7rem !important;
+}

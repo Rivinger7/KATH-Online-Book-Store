@@ -1,0 +1,53 @@
+literature.addEventListener('click', function () {
+    displayContent(literature, literature_content);
+});
+foreign.addEventListener('click', function () {
+    displayContent(foreign, foreign_content);
+});
+economic.addEventListener('click', function () {
+    displayContent(economic, economic_content);
+});
+children.addEventListener('click', function () {
+    displayContent(children, children_content);
+});
+other.addEventListener('click', function () {
+    displayContent(other, other_content);
+});
+
+// Testing Start
+new1.addEventListener('click', function () {
+    displayContentNeww(new1, new1_content);
+});
+
+new2.addEventListener('click', function () {
+    displayContentNeww(new2, new2_content);
+});
+
+new3.addEventListener('click', function () {
+    displayContentNeww(new3, new3_content);
+});
+
+new4.addEventListener('click', function () {
+    displayContentNeww(new4, new4_content);
+});
+
+new5.addEventListener('click', function () {
+    displayContentNeww(new5, new5_content);
+});
+
+// Best Publisher
+NXB_Tre.addEventListener('click', function () {
+    displayContentBestPublisher(NXB_Tre, NXB_Tre_content);
+});
+
+Alpha_Book.addEventListener('click', function () {
+    displayContentBestPublisher(Alpha_Book, Alpha_Book_content);
+});
+
+Phu_Nu.addEventListener('click', function () {
+    displayContentBestPublisher(Phu_Nu, Phu_Nu_content);
+});
+
+Sakura_Light_Novel.addEventListener('click', function () {
+    displayContentBestPublisher(Sakura_Light_Novel, Sakura_Light_Novel_content);
+});

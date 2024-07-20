@@ -1,0 +1,24 @@
+﻿--
+-- Chỉnh sửa kiểu dữ liệu cho bảng User
+--
+ALTER TABLE [User]
+ALTER COLUMN First_Name NVARCHAR(100) NOT NULL;
+
+ALTER TABLE [User]
+ALTER COLUMN Last_Name NVARCHAR(100) NOT NULL;
+
+ALTER TABLE [User]
+ALTER COLUMN City NVARCHAR(50);
+
+ALTER TABLE [User]
+ALTER COLUMN District NVARCHAR(50);
+
+ALTER TABLE [User]
+ALTER COLUMN Ward NVARCHAR(50);
+
+ALTER TABLE [User]
+ALTER COLUMN [Address] NVARCHAR(100);
+
+--
+-- Phone Number
+--
